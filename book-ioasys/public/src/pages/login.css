@@ -1,0 +1,29 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/background.png") 44% center;
+  background-size: cover;
+}
+
+.login-page-container {
+  position: absolute;
+  top: 33%;
+  left: 8%;
+}
+
+.login-page-content {
+  position: relative;
+  margin-top: 44px;
+}
+
+.login-button {
+  position: absolute;
+  bottom: 12%;
+  right: 4%;
+}
+
+@media only screen and (max-width: 480px) {
+  .login-page-container {
+    left: 5%;
+  }
+}
